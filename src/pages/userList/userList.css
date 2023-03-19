@@ -1,0 +1,72 @@
+.userList {
+  flex: 4;
+  padding: 40px 20px 0;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+
+.userListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userListEdit {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  min-width: 60px;
+}
+
+.userListDelete {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  background-color: #e74b4b;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  min-width: 60px;
+}
+
+.userClient {
+  padding: 2px 6px;
+  border-radius: 6px;
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+.userAdmin {
+  padding: 2px 6px;
+  border-radius: 6px;
+  background-color: #ebf1fe;
+  color: #2a7ade;
+}
+.userListTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.userListAddButton {
+  border: none;
+  padding: 8px 16px;
+  background-color: var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}

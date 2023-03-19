@@ -1,0 +1,72 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.featuredItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.featuredTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.featuredTitle {
+  font-size: 20px;
+}
+.featuredTopIcon {
+  padding: 6px;
+  border-radius: 6px;
+}
+.featuredTopIcon-Revenue {
+  background-color: rgba(0, 128, 0, 0.1);
+  color: green;
+}
+.featuredTopIcon-Sale {
+  background-color: rgba(255, 166, 0, 0.2);
+  color: orange;
+}
+.featuredTopIcon-Order {
+  background-color: rgba(128, 0, 128, 0.1);
+  color: purple;
+}
+
+.featuredMoneyContainer {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.featuredMoney {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.featuredMoneyRate {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.featuredIcon {
+  font-size: 14px;
+  margin-left: 5px;
+  color: green;
+}
+
+.featuredIcon.negative {
+  color: red;
+}
+
+.featuredSub {
+  font-size: 15px;
+  color: gray;
+}

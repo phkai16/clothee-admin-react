@@ -1,0 +1,78 @@
+.orderList {
+  flex: 4;
+  padding: 40px 20px;
+}
+
+.orderListItem {
+  display: flex;
+  align-items: center;
+}
+
+.orderListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.orderListEdit {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  min-width: 60px;
+}
+
+.orderListDelete {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  background-color: #e74b4b;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  min-width: 60px;
+}
+
+.orderListTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.orderListAddButton {
+  border: none;
+  padding: 8px 16px;
+  background-color: var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.orderListApproved {
+  padding: 2px 6px;
+  border-radius: 6px;
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+.orderListDeclined {
+  padding: 2px 6px;
+  border-radius: 6px;
+  background-color: #fff0f1;
+  color: #d95087;
+}
+.orderListPending {
+  padding: 2px 6px;
+  border-radius: 6px;
+  background-color: #ebf1fe;
+  color: #2a7ade;
+}

@@ -1,0 +1,75 @@
+.newProduct {
+  flex: 4;
+  padding: 20px;
+}
+
+.addProductForm {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+}
+
+.addProductItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addProductItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.addProductItem > input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.addProductItem > input[type="file"] {
+  border: none;
+}
+
+.addProductItem > label.uploadImgLabel {
+  border: 2px solid var(--dark-primary);
+  padding: 0.4em 0.8em;
+  border-radius: 0.4em;
+  background-color: var(--primary);
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 120px;
+  font-size: 12px;
+}
+.uploadImgFileName {
+  font-size: 12px;
+  color: #666;
+  margin-top: 6px;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.addProductItem > select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.addProductButton {
+  margin-top: 20px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--primary);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}

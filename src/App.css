@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --primary: #007dfe;
+  --light-primary: #bfd8ff;
+  --dark-primary: #0062ca;
+  --dark-background: #282c34;
+}

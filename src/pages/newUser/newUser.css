@@ -1,0 +1,84 @@
+.newUser {
+  flex: 4;
+  padding: 20px;
+}
+
+.newUserForm {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+}
+
+.newUserItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.newUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.newUserItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.newUserGender > input {
+  margin-top: 15px;
+}
+
+.newUserGender > label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.newUserSelect {
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 10px 0;
+}
+
+.newUserButton {
+  width: 250px;
+  border: none;
+  background-color: var(--primary);
+  color: white;
+  font-size: 16px;
+  padding: 10px 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.newUserItem > label.uploadImgLabel {
+  border: 2px solid var(--dark-primary);
+  padding: 0.4em 0.8em;
+  border-radius: 0.4em;
+  background-color: var(--primary);
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 120px;
+  font-size: 12px;
+}
+.uploadImgFileName {
+  font-size: 12px;
+  color: #666;
+  margin-top: 6px;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

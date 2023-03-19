@@ -1,0 +1,313 @@
+.order {
+  flex: 4;
+  padding: 20px;
+}
+
+.orderTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.orderAddButton {
+  border: none;
+  padding: 8px 16px;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.orderTop {
+  display: flex;
+}
+
+.orderTopLeft,
+.orderTopRight {
+  border-radius: 10px;
+  flex: 1;
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.orderTopLeftImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.orderTopLeftImg p {
+  color: gray;
+  font-weight: 500;
+}
+.orderTopLeftImg img {
+  height: 100px;
+}
+/* .orderTopRight {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+} */
+
+.orderInfoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.orderInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.orderName {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.orderInfoBottom {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.orderDetail {
+  display: flex;
+  margin: 10px 0;
+  justify-content: flex-start;
+}
+
+.orderInfoKey {
+  font-weight: 500;
+}
+
+.orderInfoValue {
+  font-weight: 300;
+  padding-left: 20px;
+}
+
+.orderBottom {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.orderForm {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.orderFormLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.orderFormLeft > label {
+  margin-bottom: 10px;
+  color: #333;
+  max-width: 400px;
+  font-weight: 500;
+}
+
+.orderFormLeft > input {
+  max-width: 400px;
+
+  margin-bottom: 20px;
+  border: none;
+  padding: 8px 16px;
+  border-bottom: 1px solid gray;
+}
+
+.orderFormLeft > select {
+  max-width: 430px;
+  margin-top: 10px;
+}
+
+.orderUploadImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.orderFormRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.orderUpload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.orderUpdateIcon {
+  cursor: pointer;
+  border: 2px solid #333;
+  padding: 6px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.orderUploadFileName {
+  width: 150px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.orderButton {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  background-color: var(--dark-primary);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 150px;
+}
+.orderSelect {
+  height: 30px;
+  border-radius: 5px;
+  padding: 0 10px 0;
+}
+.color {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 4px;
+  border: 1px solid #eee;
+  background: rgb(58, 81, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 81, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.color-black {
+  background: #333;
+}
+.color-gray {
+  background: gray;
+}
+.color-pink {
+  background: pink;
+}
+.color-beige {
+  background: beige;
+}
+.color-brown {
+  background: brown;
+}
+.color-blue {
+  background: cornflowerblue;
+}
+.orderProduct {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+
+.orderProducts {
+  border-top: 1px solid #e4dada;
+}
+
+.orderProductInfo {
+  padding: 10px;
+}
+
+.orderProductKey {
+  margin-right: 10px;
+  font-weight: 500;
+}
+.orderProductField {
+  margin: 10px 0;
+}
+.orderProductImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+.orderAction {
+  border-top: 1px solid rgb(210, 210, 210);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 20px;
+}
+.orderStatusBtn {
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+.orderProductsTitle {
+  font-weight: 600;
+  font-size: 22px;
+  margin: 10px 0;
+}
+.btnDeclined {
+  background-color: #d95050;
+}
+.btnApproved {
+  background-color: #3bb077;
+}
+
+.orderInfoValue-approved {
+  text-transform: capitalize;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background-color: #e5faf2;
+  color: #3bb077;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.orderInfoValue-declined {
+  text-transform: capitalize;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background-color: #fff0f1;
+  color: #d95087;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.orderInfoValue-pending {
+  text-transform: capitalize;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background-color: #ebf1fe;
+  color: #2a7ade;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
