@@ -27,7 +27,7 @@ const Login = () => {
     } else {
       navigate("/login");
     }
-  }, [isSuccess, token]);
+  }, [isSuccess, isError, token]);
   return (
     <div className="login" style={{ backgroundImage: "url(/login-bg.jpg)" }}>
       <div className="modal">

@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import "./widgetLg.css";
 import { format } from "timeago.js";
-import { useGetAllOrdersQuery } from "../../service/api.order";
+import { useGetNewOrdersQuery } from "../../service/api.order";
 import { useGetAllUsersQuery } from "../../service/api.user";
 
 export default function WidgetLg() {
-  const { data, isSuccess } = useGetAllOrdersQuery();
+  const { data, isSuccess } = useGetNewOrdersQuery();
   const { data: userList, isSuccess: usersSuccess } = useGetAllUsersQuery();
   const [orders, setOrders] = useState([]);
   const [users, setUsers] = useState([]);

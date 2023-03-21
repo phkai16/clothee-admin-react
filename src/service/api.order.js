@@ -11,6 +11,10 @@ const orderApi = baseApi.injectEndpoints({
       query: (productId) => `orders/income/?pid=${productId}`,
       providesTags: ["Order"],
     }),
+    getNewOrders: build.query({
+      query: () => "orders/?new=true",
+      providesTags: ["Order"],
+    }),
     getAllOrders: build.query({
       query: () => "orders",
       providesTags: ["Order"],
@@ -81,5 +85,6 @@ export const {
   useDeleteOrderMutation,
   useGetOrderIncomeQuery,
   useGetOrderIncomeByProductQuery,
+  useGetNewOrdersQuery,
   endpoints,
 } = orderApi;

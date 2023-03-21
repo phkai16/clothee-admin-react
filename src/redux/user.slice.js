@@ -1,6 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { endpoints } from "../service/api.user";
-// import { endpoints } from "../service/api.user";
 
 const userSlice = createSlice({
   name: "user",
@@ -48,21 +46,6 @@ const userSlice = createSlice({
       localStorage.removeItem("token");
     },
   },
-  // extraReducers: (builder) => {
-  //   builder.addMatcher(endpoints.login.matchFulfilled, (state, { payload }) => {
-  //     state.token = payload.accessToken;
-  //     state.id = payload._id;
-  //     state.username = payload.username;
-  //     state.email = payload.email;
-  //     state.img = payload.img;
-  //     state.fullname = payload.fullname;
-  //     state.birthday = payload.birthday;
-  //     state.gender = payload.gender;
-  //     state.address = payload.address;
-  //     state.phone = payload.phone;
-  //     state.isAdmin = payload.isAdmin;
-  //   });
-  // },
 });
 const userReducer = userSlice.reducer;
 export const { setAccount, clearAccount } = userSlice.actions;

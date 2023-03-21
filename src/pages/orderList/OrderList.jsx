@@ -116,12 +116,6 @@ export default function OrderList() {
     <div className="orderList" style={{ position: "relative" }}>
       <div className="orderListTitleContainer">
         <h1 className="orderListTitle">Order List</h1>
-        <Link to="/new-product" style={{ textDecoration: "none" }}>
-          <button className="orderListAddButton">
-            <AddCircleOutlineOutlinedIcon />
-            Create
-          </button>
-        </Link>
       </div>
       {!isLoading && (
         <DataGrid
