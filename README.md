@@ -13,7 +13,7 @@ NodeJS, ExpressJS, JWT, MongoDB, Firebase.
 ## Pages
 **Login**
 
-<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/login.png?alt=media&token=1fbe1e9b-2389-44c4-b493-53568bda76f6">
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/login-admin.png?alt=media&token=599762cc-aadc-421d-9d9c-7d6f54b6e33e">
 
 **Home**
 
@@ -53,4 +53,4 @@ NodeJS, ExpressJS, JWT, MongoDB, Firebase.
 
 **Profile**
 
-<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/profile.png?alt=media&token=3816e539-0c8a-47e7-b396-6fa622eca0be">
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/profile-admin.png?alt=media&token=f98890b4-1a01-43c2-be0d-8cbb937b279f">
