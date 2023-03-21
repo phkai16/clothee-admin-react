@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Clothee Admin
+Personal project is full-stack web application as clothing platform with built-in e-commerce functions and an admin control website.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Admin can manage users, products, orders and profile.
+## Front-End
+HTML, CSS, Material UI , ReactJS, Redux toolkit, RTK query.
 
-## Available Scripts
+## Back-End
+NodeJS, ExpressJS, JWT, MongoDB, Firebase.
 
-In the project directory, you can run:
+**Access at: [Clothee Api](https://github.com/phkai16/clothee-api-mongo)**
 
-### `yarn start`
+## Pages
+**Login**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/login.png?alt=media&token=1fbe1e9b-2389-44c4-b493-53568bda76f6">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Home**
 
-### `yarn test`
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/Screenshot%202023-03-21%20at%2016-20-32%20Clothee%20Admin.png?alt=media&token=d0f3077b-b58d-4faa-923a-9c0195928b4a">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**User List**
 
-### `yarn build`
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/userList.png?alt=media&token=1c5c4960-742d-4c97-9ae5-1f5c8496755b">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Single User**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/user.png?alt=media&token=2ddf2036-6dea-46a7-9743-4b07ec0d4502">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Add User**
 
-### `yarn eject`
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/addUser.png?alt=media&token=e508af7e-e2ba-4c41-8c9e-04cc2cf262eb">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Product List**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/productList.png?alt=media&token=8bf87b9b-a0ab-4b3c-8bad-c49fa27893f5">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Single Product**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/product.png?alt=media&token=4c97c2e6-cc7c-4863-bd0f-cb44473b7ff1">
 
-## Learn More
+**Add Product**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/addProduct.png?alt=media&token=d4b1e6b1-2e6c-467c-ac00-84b74fda6267">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Order List**
 
-### Code Splitting
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/orderList.png?alt=media&token=78885387-5f8a-4413-b732-7bfe25f5c042">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Order Detail**
 
-### Analyzing the Bundle Size
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/single-order.png?alt=media&token=f0e3403e-24a5-4acc-83ac-be6497277348">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Profile**
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://firebasestorage.googleapis.com/v0/b/lama-shop-7a301.appspot.com/o/profile.png?alt=media&token=3816e539-0c8a-47e7-b396-6fa622eca0be">
