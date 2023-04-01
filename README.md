@@ -1,7 +1,15 @@
 # Clothee Admin
+
+**Live at: [Clothee Admin](https://clothee-admin-react.vercel.app/)**
+
 Personal project is full-stack web application as clothing platform with built-in e-commerce functions and an admin control website.
 
 Admin can manage users, products, orders and profile.
+
+**ACCOUNT:** admin
+
+**PASSWORD:** 123456
+
 ## Front-End
 HTML, CSS, Material UI , ReactJS, Redux toolkit, RTK query.
 
